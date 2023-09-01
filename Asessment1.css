@@ -1,0 +1,388 @@
+body{
+    max-width: 1440px;
+   width: 100%;
+   height: 100%;
+   font-family: 'Roboto', sans-serif;
+   margin: 0;
+   font-size: 16px;
+
+}
+/*...................................................container1 and navbar.................................*/
+.container1 {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 2%;
+        font-size: 17px;
+        height: 75px;
+        position: sticky;
+        top: 0;
+        background-color:#FFFFFF;
+        /* text-decoration: none; */
+    }
+    .nav-menu-ul {
+        display: flex;
+        gap: 52px;
+        /* text-decoration: none; */
+        text-decoration: none;
+    }
+    .container1 a{
+        text-decoration: none;
+        color: black;
+    }
+
+    /*........................................container2.........................................*/
+
+    .container2 {
+        background-image: url(images/hero-banner.jpg);
+        background-repeat: no-repeat;
+       
+        width: 100%;
+        height: 700px;
+        
+    }
+
+    .container2content {
+        color:#FFFFFF;
+        width: 30%;
+        line-height: 34px;
+        padding: 15%;
+    }
+
+    .container2content h2 {
+        font-size: 41px;
+        line-height: 59px;
+        /* font-family: 'PT Sans'; */
+    }
+
+    /*.........................................container3.................................................*/
+
+    .maincontainer3 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .container3 {
+        display: grid;
+        justify-content: center;
+        align-content: center;
+        margin: 8% auto;
+    }
+    .containerinner3 {
+        display: flex;
+        gap: 39px;
+        /* list-style: none; */
+        width: 100%;
+    }
+    .container3 img {
+        width: 20px;
+        height: 22px;
+        position: relative;
+        top: 5px;
+        right: 6px;
+    }
+
+    h3.heading {
+        font-size: 22px;
+    }
+    .containerinner3>* {
+        width: 50%;
+    }
+    .container3 li {
+        list-style: none;
+        width: 84%;
+        line-height: 40px;
+    }
+    /*...............................................container4...........................................*/
+
+    .maincontainer4 {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .container4 {
+        width: 80%;
+    }
+    /* .container4inner {
+        display: flex;
+    } */
+    .container4inner p {
+        /* min-width: 300px; */
+        width: 50%;
+        line-height: 31px;
+        position: relative;
+        /* left: 51%; */
+        /* bottom: 25%; */
+        /* top: 23%; */
+        bottom: 327px;
+        left: 486px;
+        font-size: 18px;
+    }
+    .container4inner img {
+        width: 100%;
+        height: 600px;
+    }
+
+
+    /* .container4inner>* {
+        width: 50%;
+    } */
+    /*..........................................container5....................................*/
+
+    .maincontainer5 {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        height: 100%;
+    }
+    .container5 {
+        width: 80%;
+       
+    }
+    .containe5rinner1 {
+        display: flex;
+        gap: 100px;
+        justify-content: center;
+        align-items: center;
+    }
+    .contentleft {
+        /* min-width: 281px; */
+        line-height: 30px;
+    }
+    .container5inner1 h3{
+        
+            font-size: 20px;
+            /* font-family: 'PT Sans'; */
+        
+    }
+    .containe5rinner1>* {
+        width: 50%;
+    }
+    .container5 .rightimg img {
+        width: 99%;
+        height: 100%;
+    }
+
+/*.........................contaniner5inner2...................*/            
+
+ .container5inner2 {
+  display: flex;
+   gap: 2%;
+      }
+
+      .card {
+        display: flex;
+        gap: 25px;
+        align-items: center;
+        box-shadow: 0px 0px 3px 0px;
+        padding: 2%;
+    }
+    .container5inner2>* {
+        width: 30%;
+    }
+    .card img {
+        width: 20px;
+        height: 25px;
+    }
+
+p.cardheading {
+    font-size: 18px;
+    font-weight: 600;
+}
+/*.....................................container5inner3....................*/
+
+.container5inner3 {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2%;
+    /* column-gap: 17px; */
+    row-gap: 17px;
+   
+}
+.container5inner3>* {
+    width: 28%;
+    height: 70px;
+}
+p.cardheading2 {
+    font-size: 18px;
+    font-weight: 600;
+    margin: 6% auto;
+}
+
+/*..........................................container6............................................*/
+
+.maincontainer6 {
+    display: flex;
+    justify-content: center;
+}
+.container6 {
+    width: 60%;
+}
+ table,th, td {
+    border: 1px solid rgba(128, 128, 128, 0.452);
+    text-align: start;
+    /* margin: 0 2%; */
+    border-collapse: collapse;
+   
+    padding: 0 4%;
+
+}
+table{
+    height:400px;
+}
+th{
+    background-color: #011533;
+    color: #FFFFFF;
+}
+td:nth-child(even){
+    text-decoration: underline;
+}
+.container6 p.title {
+    font-size: 25px;
+    text-align: center;
+    font-weight: 600;
+}
+.container6 p.note {
+    text-align: center;
+    font-size: 18px;
+    color: #000000a8
+}
+
+/*...........................................container7.....................................*/
+
+.maincontainer7 {
+    /* width: 100%; */
+    /* height: 100%; */
+    display: grid;
+    justify-content: center;
+    background-color: #011533;
+    color: #FFFFFF;
+}
+
+
+.container7 {
+    width: 80%;
+    /* display: flex; */
+    gap: 65px;
+}
+.container7inner1 {
+    display: flex;
+    gap: 161px;
+    justify-content: center;
+    align-items: center;
+}
+.leftcontent {
+    width: 36%;
+    font-size: 18px;
+    line-height: 33px;
+}
+.container7 a {
+    color: #ffffff;
+    text-decoration: none;
+}
+.container7 span {
+    /* color: #ffffff; */
+    font-weight: 800;
+}
+.copyright p {
+    text-align: center;
+}
+h3.side-heading {
+    font-size: 30px;
+    font-weight: 900;
+}
+
+
+
+
+@media screen and (max-width:600px) {
+    .container1 {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 2%;
+        font-size: 17px;
+        height: 75px;
+        position: sticky;
+        top: 0;
+        background-color:#FFFFFF;
+        /* text-decoration: none; */
+    }
+    /*..............................contaner2......................................*/
+
+    .container2content {
+        color: #FFFFFF;
+        width:80%;
+        line-height: 34px;
+        padding: 15%;
+       
+      }
+      /*.....................................container3.............................*/
+
+      .containerinner3 {
+        display: flex;
+        gap: 39px;
+        list-style: none;
+        width: 100%;
+        flex-direction: column;
+        justify-content: center;
+      }
+      /*...........................................container5..............................*/
+      .containe5rinner1 {
+        display: flex;
+        gap: 100px;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 80%;
+      }
+
+      .card {
+        display: flex;
+        flex-direction: column;
+        gap: 25px;
+        align-items: center;
+        box-shadow: 0px 0px 3px 0px;
+        padding: 2%;
+    }
+    .container5inner2 {
+        display: flex;
+        flex-direction: column;
+         gap: 2%;
+            }
+            .container5inner3 {
+                display: flex;
+                /* flex-direction: column; */
+                flex-wrap: wrap;
+                gap: 2%;
+                /* column-gap: 17px; */
+                row-gap: 17px;
+               
+            }
+            .container5inner3>* {
+                width: 28%;
+                height: 100%;
+            }
+
+            /*....................................container7................................*/
+
+            .container7inner1 {
+                display: flex;
+                gap: 161px;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+              }
+              .leftcontent {
+                width: 100%;
+                font-size: 18px;
+                line-height: 33px;
+                padding: 8%;
+              }
+              .container6 {
+                width: 90%;
+              }
+}
